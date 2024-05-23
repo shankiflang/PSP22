@@ -23,7 +23,7 @@ std = [
 
 The contents of this repository can be used in following ways:
 
-### 1. Ready to use contract
+### 1. Ready to use contracts
 
 The file [`lib.rs`][lib] contains a ready to use implementation of basic PSP22 token contract (extended with PSP22Metadata). To use it, please check out this repository and compile its contents using [`cargo-contract`][cargo-contract]:
 
