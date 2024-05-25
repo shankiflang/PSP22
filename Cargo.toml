@@ -12,11 +12,15 @@ exclude = [ ".github/*" ]
 
 [dependencies]
 ink = { version = "5.0.0", default-features = false }
+psp22 = { version = "2.0", default-features = false, features = ["ink-as-dependency"] }
 
 [lib]
 path = "lib.rs"
 
 [features]
 default = ["std"]
-std = ["ink/std"]
+std = [
+  "ink/std",
+  "psp22/std"
+]
 ink-as-dependency = []

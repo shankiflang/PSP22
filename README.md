@@ -28,6 +28,7 @@ The contents of this repository can be used in following ways:
 The file [`lib.rs`][lib] contains a ready to use implementation of basic PSP22 token contract (extended with PSP22Metadata). To use it, please check out this repository and compile its contents using [`cargo-contract`][cargo-contract]:
 
 ```bash
+cargo install --force --locked cargo-contract
 cargo contract build --release
 ```
 
